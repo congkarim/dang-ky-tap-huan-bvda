@@ -1,3 +1,7 @@
 [server]
 port = 8502
+<<<<<<< HEAD
 enableStaticServing = true
+=======
+enableStaticServing = true
+>>>>>>> 38429dac4134d78627451f1baaccd7e4439ff9a3
