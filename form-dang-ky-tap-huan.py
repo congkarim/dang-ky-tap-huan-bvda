@@ -55,7 +55,7 @@ def main():
         doituong = st.selectbox("Đối tượng", ["Bác sĩ"])
         st.info("Thời điểm này CME chỉ đăng ký cấp cho đối tượng Bác sĩ")
         khoa = st.selectbox("Khoa/Phòng", khoa_phong_list) if khoa_phong_list else st.text_input("Khoa/Phòng")
-        trinhdo = st.selectbox("Trình độ chuyên môn", ["CKII", "CKI", "TS", "ThS", "Đại học", "Cao đẳng"])
+        trinhdo = st.selectbox("Trình độ chuyên môn", ["CKII", "CKI", "TS", "ThS", "Đại học"])
         cap_cme = st.radio("Cấp CME", ["Có", "Không"])
         sdt = st.text_input("Số điện thoại")
         email = st.text_input("Email")
